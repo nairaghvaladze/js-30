@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'karla';
+    src : url(../font/Karla-Regular.ttf);
+ }
+body{
+    background: #A7D7C5;
+    height: 100vh;
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+
+}
+.cont{
+    padding: 25px 59px 31px 37px ;
+width: 455px;
+height: 532px;
+background: #F6FBF9;
+border-radius: 32px;
+
+}
+h4 {
+text-align: center;
+color: #212B27;
+font-family: 'karla';
+font-size: 36px;
+font-weight: 700;
+}
+.text1{
+    text-align: center;
+color: #32403B;
+font-family: 'karla';
+font-size: 15px;
+font-weight:400;
+}
+#name, #email, #password{
+    
+    font-family: 'karla';
+    font-size: 15px;
+    font-weight:400;
+    
+}
+#create{
+    width: 255px; 
+    height: 50px; 
+    background: #84C7AE;
+    color: #FFFFFF;
+    font-family: 'karla';
+    font-size: 20px;
+    font-weight: 700;
+    display:block;
+   margin: auto;
+    
+}
+#text2{
+    text-align: center;
+    color: #32403B;
+    font-family: 'karla';
+    font-size: 14px;
+    font-weight: 400;
+
+}
+a{
+    color: #32403B;
+    font-family: 'karla';
+    font-size: 14px;
+    font-weight: 400;
+
+}
